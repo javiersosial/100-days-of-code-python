@@ -1,0 +1,59 @@
+import random
+
+rock = '''
+    _______
+---'   ____)
+      (_____)
+      (_____)
+      (____)
+---.__(___)
+'''
+
+paper = '''
+    _______
+---'   ____)____
+          ______)
+          _______)
+         _______)
+---.__________)
+'''
+
+scissors = '''
+    _______
+---'   ____)____
+          ______)
+       __________)
+      (____)
+---.__(___)
+'''
+rps=[rock,paper,scissors]
+choose=int(input("What do you choose? Type 0 for Rock, 1 for Paper or 2 for Scissors.\n"))
+computer_chose=random.randint(0,2)
+if choose >= 0 and choose <= 2 :
+    print(rps[choose])
+    print("Computer chose")
+    print(rps[computer_chose])
+    if choose==0:
+        if computer_chose==0:
+            print("You draw")
+        elif computer_chose==1:
+            print("You lose")
+        elif computer_chose == 2:
+            print("You win")
+    elif choose==1:
+        if computer_chose==0:
+            print("You win")
+        elif computer_chose==1:
+            print("You draw")
+        elif computer_chose == 2:
+            print("You lose")
+    #elif rps[choose]==2:
+    else:
+        if computer_chose==0:
+            print("You lose")
+        elif computer_chose==1:
+            print("You win")
+        elif computer_chose== 2:
+            print("You draw")
+else:
+    print("You picked wrong number. Please run again")
