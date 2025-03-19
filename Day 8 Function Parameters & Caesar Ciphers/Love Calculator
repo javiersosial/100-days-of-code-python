@@ -1,0 +1,26 @@
+TRUE="TRUE"
+LOVE="LOVE"
+count=0
+def calculate_love_score(name1,name2):
+    count=0
+    count1=0
+    for letter in TRUE:
+        for letter1 in name1.upper():
+            
+            if letter1 == letter:
+                count += 1
+        for letter2 in name2.upper(): 
+            if letter2 == letter:
+                count += 1
+    for letter in LOVE:
+        for letter1 in name1.upper():
+            
+            if letter1 == letter:
+                count1 += 1
+        for letter2 in name2.upper(): 
+            if letter2 == letter:
+                count1 += 1
+    hasil=count*10+count1
+    print(hasil)
+
+calculate_love_score("Kanye West","Kim Kardashian")
