@@ -1,3 +1,4 @@
+# Password Generator Program
 Easy Version
 Generate the password in sequence. Letters, then symbols, then numbers. If the user wants
 
