@@ -1,4 +1,4 @@
-# Readme Checking if the Player has Won
+# Checking if the Player has Won
 TODO-1
 Use a while loop to let the user guess again.
 The loop should only stop once the user has guessed all the letters in the chosen_word.
