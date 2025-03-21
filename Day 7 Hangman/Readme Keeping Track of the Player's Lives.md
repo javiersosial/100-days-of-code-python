@@ -1,3 +1,4 @@
+# Keeping Track of the Player's Lives
 TODO-1:
 Create a variable called lives to keep track of the number of lives left.
 Set lives to equal 6.
