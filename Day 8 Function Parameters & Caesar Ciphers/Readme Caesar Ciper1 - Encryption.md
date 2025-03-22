@@ -1,4 +1,4 @@
-# Caesar Ciper 1
+# Caesar Ciper 1 - Encryption
 You are going to build an encryption and decryption program using the Caesar cipher.
 
 Demo
