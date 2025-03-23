@@ -1,2 +1,2 @@
 # 100-days-of-code-python
-Learning phyton from basic to pro in 100 days
+Documenting my progress in Learning phyton from beginner to pro in 100 days, based on Udemy online course Bootcamp.
